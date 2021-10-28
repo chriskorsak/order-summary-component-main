@@ -1,0 +1,59 @@
+/* google font */
+/* font-family: 'Red Hat Display', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* variables */
+:root {
+  /* pale blue */
+  --primary-1: hsl(225, 100%, 94%);
+  /* bright blue */
+  --primary-2: hsl(245, 75%, 52%);
+  /* Very pale blue  */
+  --neutral-1: hsl(225, 100%, 98%);
+  /* desaturated blue */
+  --neutral-2: hsl(224, 23%, 55%);
+  /* dark blue */
+  --neutral-3: hsl(223, 47%, 23%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-color: var(--primary-1);
+  background-image: url("images/pattern-background-mobile.svg");
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+  width: 85%;
+  background:hsl(225, 100%, 98%);
+  margin: 4rem auto;
+  border-radius: 60px;
+}
+
+img.hero {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.purchase-item {
+  display: flex;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
