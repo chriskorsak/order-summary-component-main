@@ -29,6 +29,13 @@ body {
   background: no-repeat url("images/pattern-background-mobile.svg") var(--primary-1);
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 a {
   color: var(--neutral-2);
   text-decoration: none;
@@ -43,7 +50,7 @@ a:hover {
   text-align: center;
   width: 85%;
   background:#fff;
-  margin: 4rem auto;
+  margin: auto;
   border-radius: 20px;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, .1);
 }
